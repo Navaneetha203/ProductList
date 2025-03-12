@@ -3,6 +3,7 @@ sap.ui.define([
     "com/mindset/product/model/models"
 ], (UIComponent, models) => {
     "use strict";
+    
     return UIComponent.extend("com.mindset.product.Component", {
         metadata: {
             manifest: "json",
