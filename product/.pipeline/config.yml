@@ -22,7 +22,7 @@ steps:
 
   mtaBuild:
     buildTarget: "CF"
-    mtaYaml: "../mta.yaml"
+    mtaYaml: "../../../mta.yaml"
     applicationName: "commindsetproduct"
 
   shellExecute:
