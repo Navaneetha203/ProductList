@@ -25,7 +25,9 @@ steps:
     mtaBuild:
       buildTarget: "CF"
       mtaYaml: "mta.yaml"
-      applicationName: "commindsetproduct"
+      applicationName: "commindsetproducts"
+  shellExecute:
+    script: "ls -la"
 ### Stage-specific configuration
 stages:
   'Confirm':
