@@ -22,8 +22,8 @@ steps:
 
   mtaBuild:
     buildTarget: "CF"
-    mtaYaml: "mta.yaml"
-    applicationName: "commindsetproducts"
+    mtaYaml: "../mta.yaml"
+    applicationName: "commindsetproduct"
 
   shellExecute:
     script: "ls -la"
