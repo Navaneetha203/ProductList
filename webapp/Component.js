@@ -3,6 +3,8 @@ sap.ui.define(
     function (Component) {
         "use strict";
 
+
+        
         return Component.extend("com.mindset.productlist.Component", {
             metadata: {
                 manifest: "json"
